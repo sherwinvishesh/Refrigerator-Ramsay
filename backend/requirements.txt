@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+google-generativeai
+python-dotenv
+Pillow
+markdown 
+googletrans==4.0.0-rc1
+python-multipart
