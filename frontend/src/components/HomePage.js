@@ -17,54 +17,149 @@ const HomePage = () => {
     <Container>
       {/* Logo */}
       <LogoContainer>
-        <Logo src="/logo-refrigerator-ramsay.png" alt="Refrigerator Ramsay Logo" />
+        <Logo src="/logo-refrigerator-ramsay-removebg-preview (1).png" alt="Refrigerator Ramsay Logo" />
       </LogoContainer>
 
       {/* Project Introduction */}
       <Section>
         <Title>Welcome to Refrigerator Ramsay</Title>
         <Description>
-          <p>
-            <strong>Refrigerator Ramsay</strong> is your smart kitchen assistant, designed to help you make the most of your groceries while reducing food waste. Whether you're unsure what to cook with what's left in your fridge or looking to extend the freshness of your ingredients, <strong>Refrigerator Ramsay</strong> has you covered!
-          </p>
-        </Description>
-      </Section>
-
-      {/* Problem Being Solved */}
-      <Section>
-        <SubTitle>The Problem</SubTitle>
-        <Description>
-          <p>
-            Millions of tons of food are wasted every year because people either forget about ingredients in their refrigerators or don't know how to make use of them before they go bad. This not only leads to financial loss but also has a massive environmental impact. Our goal is to solve this problem by turning leftovers into delicious meals and minimizing food waste.
-          </p>
-        </Description>
-      </Section>
-
-      {/* Features */}
-      <Section>
-        <SubTitle>Key Features</SubTitle>
-        <FeaturesList>
-          <li>AI-powered grocery recognition: Scan your fridge and our AI will identify the ingredients.</li>
-          <li>Recipe suggestions: Get creative, easy-to-make recipes based on what's in your fridge.</li>
-          <li>AI Chef Call: Interact with an AI chef for personalized cooking advice and tips.</li>
-          <li>Reduce food waste: Use up all your ingredients and minimize food waste.</li>
-          <li>Easy-to-use interface: Designed for everyone, from beginners to seasoned cooks.</li>
-        </FeaturesList>
-      </Section>
-
-      {/* How It Works */}
-      <Section>
-        <SubTitle>How It Works</SubTitle>
-        <Description>
+          <p><strong>Refrigerator Ramsay</strong> is an AI-powered kitchen assistant designed to reduce food waste and optimize ingredient use:</p>
           <ul>
-            <li><strong>Step 1:</strong> Use the camera to scan your fridge or pantry.</li>
-            <li><strong>Step 2:</strong> Our AI will recognize the ingredients you have available.</li>
-            <li><strong>Step 3:</strong> Describe how you'd like to prepare the meal, and <strong>Refrigerator Ramsay</strong> will generate a recipe based on your ingredients and preferences.</li>
-            <li><strong>Step 4:</strong> Follow the step-by-step instructions to cook a delicious meal and reduce food waste in the process.</li>
-            <li><strong>Optional:</strong> If you need personalized cooking advice, use the call feature to chat with our AI chef!</li>
+            <li>Combines Google Gemini AI for ingredient recognition and recipe generation.</li>
+            <li>Integrates Hume EVI for interactive voice assistance.</li>
+            <li>Users can snap a picture of their fridge or pantry, and the AI generates creative recipes.</li>
+            <li>Helps make the most of the available ingredients to minimize waste.</li>
           </ul>
         </Description>
       </Section>
+
+              {/* Problem Being Solved */}
+      <Section>
+        <SubTitle>The Problem</SubTitle>
+        <ProblemContainer>
+          <TextContainer>
+            <p>
+              Every year, millions of tons of food are wasted due to poor meal planning and lack of awareness about what's in our refrigerators. This food waste not only impacts our wallets but also contributes to harmful environmental effects, such as increased carbon footprints and the unnecessary use of resources.
+            </p>
+            <p>
+              <strong>In fact, 40% of food in the United States is wasted annually.</strong> Much of this waste happens because people don't know what to cook with the ingredients they already have or let them spoil before use.
+            </p>
+            <p>
+              Our mission with <strong>Refrigerator Ramsay</strong> is to minimize food waste by offering intelligent recipe suggestions based on the ingredients people already own.
+            </p>
+          </TextContainer>
+          
+          {/* Graph Image */}
+          <ImageContainer>
+            <img src="/20825.jpeg" alt="Food Waste Statistics" style={{ width: '100%', borderRadius: '10px' }} />
+          </ImageContainer>
+        </ProblemContainer>
+      </Section>
+
+            {/* Solution */}
+            <Section>
+        <SubTitle>The Solution</SubTitle>
+        <SolutionContainer>
+          <ul>
+            <li>
+              <strong>Image recognition:</strong> Using Google Gemini AI, users can identify ingredients from a simple photo.
+            </li>
+            <li>
+              <strong>Smart recipe generation:</strong> AI creates dishes from available ingredients, reducing the likelihood of spoilage.
+            </li>
+            <li>
+              <strong>Interactive assistant:</strong> Hume EVI provides real-time voice or text-based cooking advice, tips, and technique guidance.
+            </li>
+            <li>
+              <strong>Result:</strong> Minimized food waste, smarter grocery usage, and a fun, personalized cooking experience.
+            </li>
+          </ul>
+        </SolutionContainer>
+      </Section>
+
+
+
+
+            {/* Features */}
+            <Section>
+        <SubTitle>Key Features and Technologies</SubTitle>
+        <FeaturesList>
+          <li>
+            <strong>Google Gemini AI for Ingredient Recognition:</strong> 
+            Utilizing the power of Google's advanced AI, users can simply snap a photo of their fridge or pantry. The AI accurately recognizes and identifies the ingredients in the image. This technology eliminates the guesswork, ensuring you always know what you have on hand.
+          </li>
+          <li>
+            <strong>AI-Driven Recipe Generation:</strong> 
+            Based on the recognized ingredients, the AI generates creative, easy-to-follow recipes. This smart generation system ensures that your available ingredients are used efficiently, reducing the chance of spoilage and minimizing waste.
+          </li>
+          <li>
+            <strong>Hume EVI for Interactive Cooking Assistance:</strong> 
+            Integrated with Hume's Emotionally Intelligent Voice Interaction (EVI), users can receive real-time voice or text-based cooking guidance. This feature provides step-by-step instructions, cooking tips, and even personalized technique suggestions.
+          </li>
+          <li>
+            <strong>Personalized, Data-Driven Meal Suggestions:</strong> 
+            The AI learns from your ingredient usage patterns, preferences, and cooking history, offering personalized meal suggestions that align with your taste and cooking style.
+          </li>
+          <li>
+            <strong>Reducing Food Waste with Smart Technology:</strong> 
+            The combined power of ingredient recognition, recipe generation, and real-time assistance significantly reduces food waste. By helping you use what you have, <strong>Refrigerator Ramsay</strong> not only saves you money but also contributes to a more sustainable lifestyle.
+          </li>
+        </FeaturesList>
+      </Section>
+
+
+            {/* How It Works */}
+            <Section>
+        <SubTitle>How It Works</SubTitle>
+        <Description>
+          <p>
+            <strong>Using Camera:</strong>
+          </p>
+          <ul>
+            <li><strong>Step 1:</strong> Click the button below labeled <strong>"Use Camera"</strong> to start.</li>
+            <li><strong>Step 2:</strong> You can either snap a picture of the groceries in front of you or manually upload a saved image from your device. Once the image is ready, click <strong>"Next"</strong>.</li>
+            <li><strong>Step 3:</strong> Describe how you'd like the meal to be prepared. Be as specific as you want about cooking style, flavor preferences, or dietary needs.</li>
+            <li><strong>Step 4:</strong> You'll receive a personalized recipe. Follow the step-by-step instructions to prepare your meal. Don't forget to refrigerate any leftovers to prevent waste!</li>
+          </ul>
+
+          <p>
+            <strong>Using AI Chef Call:</strong>
+          </p>
+          <ul>
+            <li><strong>Step 1:</strong> Click the button labeled <strong>"Call AI Chef"</strong> to initiate a voice interaction with our AI chef.</li>
+            <li><strong>Step 2:</strong> Once the call interface is open, press <strong>"Start Call"</strong> to begin your conversation with the AI.</li>
+            <li><strong>Step 3:</strong> You can talk to the AI chef to get real-time cooking advice, ask about ingredient substitutions, or get tips on cooking techniques. Use the <strong>"Mute"</strong> button to mute your microphone and press <strong>"End Call"</strong> when you're done.</li>
+            <li><strong>Bonus:</strong> The AI chef is ready to assist you at any point during your cooking, so feel free to ask questions while you're preparing your meal!</li>
+          </ul>
+        </Description>
+      </Section>
+
+            {/* Working Section */}
+            <Section>
+        <SubTitle>Working</SubTitle>
+        <Description>
+          <p>
+            Watch the video below to see <strong>Refrigerator Ramsay</strong> in action! This demonstration walks through the entire process, from scanning your fridge to generating personalized recipes and interacting with the AI chef.
+          </p>
+          
+          {/* Embedded YouTube Video */}
+          <VideoContainer>
+            <iframe
+              width="100%"
+              height="400"
+              src="https://www.youtube.com/embed/bNv-EJtd40s"
+              title="Refrigerator Ramsay - Project Demo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </VideoContainer>
+        </Description>
+      </Section>
+
+
+
 
       {/* Navigation Buttons */}
       <BottomNav>
@@ -129,21 +224,26 @@ const Description = styled.div`
   font-size: 18px;
   color: #333;
   line-height: 1.6;
+
   p {
     margin-bottom: 20px;
   }
+
   ul {
     list-style-type: disc;
     margin-left: 40px;
     text-align: left;
   }
+
   li {
     margin-bottom: 10px;
   }
+
   strong {
     color: #2e7d32;
   }
 `;
+
 
 const FeaturesList = styled.ul`
   list-style-type: disc;
@@ -187,4 +287,70 @@ const Footer = styled.footer`
   font-size: 16px;
   color: #888;
 `;
+const ProblemContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 20px;
+`;
 
+const TextContainer = styled.div`
+  flex: 1;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  strong {
+    color: #2e7d32;
+  }
+`;
+
+const ImageContainer = styled.div`
+  flex: 1;
+  max-width: 600px; /* Ensure the image doesn't get too large */
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+`;
+
+
+const SolutionContainer = styled.div`
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  text-align: left;
+
+  ul {
+    list-style-type: disc;
+    margin-left: 40px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  strong {
+    color: #2e7d32;
+  }
+`;
+
+
+const VideoContainer = styled.div`
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+
+  iframe {
+    border-radius: 10px;
+    border: none;
+  }
+`;
